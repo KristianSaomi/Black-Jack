@@ -1,0 +1,126 @@
+body { 
+   background-color: #165A2A;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-width: 100vh;
+   min-height: 100vh;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'Sans-serif';
+    
+}
+.blackJackTable {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid goldenrod;
+    border-radius: 3px;
+    padding: 10px;
+} 
+
+h1 {
+    color: goldenrod;
+    font-size: 40px;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
+#message-el {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#startAGame {
+    background-color: goldenrod;
+    border-radius: 3px;
+    padding: 8px 12px 8px 12px;
+    font-weight: bold;
+    border: 1px solid goldenrod;
+    font-size: 17px;
+    color: black;
+    transition: 250ms ease-in-out;
+}
+#startAGame:hover {
+    background: none;
+    color: white;
+}
+.cardToPres-el {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardToPres-el p  {
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    box-shadow: 1px 0.5px 0.5px 0.5px black;
+    min-width: 20px;
+    max-width: 20px;
+}
+
+.cardForDealer-el {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+hr {
+    width: 50%;
+}
+#pause {
+    background-color: white;
+    border-radius: 3px;
+    padding: 8px 12px 8px 12px;
+    font-weight: bold;
+    border: 1px solid white;
+    font-size: 17px;
+    color: black;
+    margin-left: 10px;
+    transition: 250ms ease-in-out;
+}
+#pause:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+#restart-el {
+    margin-top: 10px;
+    background-color: red;
+    padding: 8px 12px 8px 12px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'Sans-serif';
+    font-size: 17px;
+}
+.cardForDealer-el p {
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    box-shadow: 1px 0.5px 0.5px 0.5px black;
+    min-width: 20px;
+    max-width: 20px;
+}
+#buttonSection{
+    margin-top: 20px;
+}
+.dealer {
+    min-width: 30%;
+    max-width: 30%;
+    max-height: 30%;
+    min-height: 30%;
+    border-radius: 10%;
+    box-shadow: 1px 0.5px 0.5px 0.5px goldenrod;
+
+}
